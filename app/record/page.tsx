@@ -866,9 +866,7 @@ export default function RecordPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label className="mb-2">
-                    Frame Rate: {recordingOptions.frameRate} FPS
-                  </Label>
+                  <Label>Frame Rate: {recordingOptions.frameRate} FPS</Label>
                   <Slider
                     value={[recordingOptions.frameRate]}
                     onValueChange={([value]) =>
